@@ -91,17 +91,18 @@
 </div>
 
 <div class="container text-center">    
-  <h2> <b> Análises Táticas <b> </h2>
+  <h2> <b> Análises Táticas </b> </h2>
+    {foreach item=post from=$posts}
   <div class="row text-left">
     <div class="col-sm-5">
-      <h4> <b> Benfica x Vitória F.C. - 3 pontos arrancados a ferro </b> </h4>
-      <h6> Bruno Serro updated: 2019-09-30 15:03:11</h6>
-      <h6> created: 2019-09-28 13:28:22</h6>
-    </div>
-    <div class="col-sm-5"> 
-      <img src="img/SLB_VFC.png" class="img-responsive" style="width:70%" alt="Image">
+      <h4> <b> {$post.content} </b> </h4>
+      <h6> {$post.name} updated: {$post.updated_at} </h6>
+      <h6> created: {$post.created_at}</h6>
     </div>
 </div>
+{/foreach}
+</div>
+
 
 </body>
 </html>
