@@ -72,7 +72,7 @@
       </div>
 
       <div class="item">
-        <img src="img/vinicius.jpg" alt="News">
+        <img src="img/vinicius.JPG" alt="News">
         <div class="carousel-caption">
           <h1>Curiosidades e notícias da atualidade benfiquista</h1>
         </div>      
